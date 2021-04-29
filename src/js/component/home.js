@@ -8,13 +8,13 @@ export function Home() {
 	const [color, setColor] = useState(null);
 	console.log(color);
 	let redClass = "";
-	if (setColor === "red") {
+	if (color === "red") {
 		redClass = `selected`;
 	}
 	let yellowClass = "";
-	if (setColor === "yellow") yellowClass = `selected`;
+	if (color === "yellow") yellowClass = `selected`;
 	let greenClass = "";
-	if (setColor === "green") greenClass = `selected`;
+	if (color === "green") greenClass = `selected`;
 	return (
 		<div>
 			<div id="traficTop"> </div>
